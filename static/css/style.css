@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+        font-weight:bold;
+        color:beige;
+}
+h1
+{
+text-align:center;
+transform: translate(0%, 55%);
+padding-left:15px;
+color:black;
+margin-left:35px;
+}
+
+body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://i.postimg.cc/8cf6v1rk/1.jpg);
+        background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+img
+{
+  width:50px;
+  height:50px;
+}
+
+div
+{
+  margin:25px;
+}
+
+.myfrm
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 600px;
+height: 510px;
+padding: 20px 20px;
+
+margin-bottom:50px;
+background: rgba(0, 0, 0, 0.5);
+}
